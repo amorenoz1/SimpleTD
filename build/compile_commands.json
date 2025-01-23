@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/main.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/main.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/main.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/glad/glad.c.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/glad/glad.c",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/glad/glad.c",
+  "output": "CMakeFiles/SimpleTD.dir/src/glad/glad.c.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/window.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/window.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/window.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/window.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/shader_utils.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/shader_utils.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/shader_utils.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/shader_utils.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o"
+}
+]

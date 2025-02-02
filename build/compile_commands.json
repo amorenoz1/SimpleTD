@@ -28,5 +28,41 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc.cpp",
   "output": "CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/vector2d.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/vector2d.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/scene.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/scene.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/object_manager.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/object_manager.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc_util.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc_util.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/end_scene.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/end_scene.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/include -isystem /usr/local/include -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/SimpleTD.dir/src/app/app.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/app/app.cpp",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/app/app.cpp",
+  "output": "CMakeFiles/SimpleTD.dir/src/app/app.cpp.o"
 }
 ]

@@ -4,7 +4,7 @@
 #include <glad/glad.h>
 #include <engine/shader_utils.hpp>
 
-namespace engine {
+namespace Engine {
    struct Texture {
       const char *texturePath;
    };
@@ -28,19 +28,18 @@ namespace engine {
       public:
          virtual ~Drawable();
          
-         bool isReferenced;
+         bool isInitialized;
+         int ID;
 
-         virtual void draw() const = 0;
-         virtual void init() = 0;
-         virtual void update() = 0;
-         virtual void cleanup() = 0;
+         virtual void draw() const;
+         virtual void init();
+         virtual void update();
+         virtual void cleanup();
    };
 
-   class Square : Drawable {
-      private:
-         float sLength;
-
+   class Square : public Drawable {
       public:
+         float sLength;
          float x, y;
          Color color;
 
@@ -51,6 +50,14 @@ namespace engine {
          void init() override;
          void update() override;
          void cleanup() override;
+   };
+
+   class Triangle : Drawable {
+
+   };
+
+   class Rectangle : Drawable {
+
    };
 
 } // namespace engine

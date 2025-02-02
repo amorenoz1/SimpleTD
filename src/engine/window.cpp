@@ -1,8 +1,9 @@
+#include "engine/draw_proc_util.hpp"
 #include <cstdlib>
 #include <iostream>
 #include <engine/window.hpp>
 
-namespace engine {
+namespace Engine {
 
 void Window::init() {
 
@@ -43,6 +44,10 @@ void Window::pollEvents() {
 
 void Window::clear() {
    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+void Window::clearColor(Color color) {
+   glClearColor(rgbToColor(color.r), rgbToColor(color.g), rgbToColor(color.b), 1.0f);
 }
 
 void Window::swapBuffers() {

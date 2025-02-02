@@ -5,7 +5,7 @@
 #include <sstream>
 #include <string>
 
-namespace engine {
+namespace Engine {
    void Shader::linkShader() {
       glLinkProgram(ID);
 

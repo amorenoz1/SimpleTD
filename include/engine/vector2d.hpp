@@ -3,7 +3,7 @@
 
 #include <glm/glm.hpp>
 
-namespace engine {
+namespace Engine {
 
 class Vector2D {
    protected:

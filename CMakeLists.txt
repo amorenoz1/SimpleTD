@@ -20,6 +20,12 @@ add_executable(SimpleTD src/main.cpp
                         src/engine/window.cpp
                         src/engine/shader_utils.cpp
                         src/engine/draw_proc.cpp
+                        src/engine/vector2d.cpp
+                        src/engine/scene.cpp
+                        src/engine/object_manager.cpp
+                        src/engine/draw_proc_util.cpp
+                        src/game/end_scene.cpp
+                        src/app/app.cpp
 )
 
 # set output directory for the binary

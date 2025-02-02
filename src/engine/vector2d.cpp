@@ -1,6 +1,6 @@
 #include <engine/vector2d.hpp>
 
-namespace engine {
+namespace Engine {
 
    Vector2D::Vector2D() {
       this->x = 0.0f;

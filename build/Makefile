@@ -129,6 +129,30 @@ SimpleTD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/build
 .PHONY : SimpleTD/fast
 
+src/app/app.o: src/app/app.cpp.o
+.PHONY : src/app/app.o
+
+# target to build an object file
+src/app/app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/app/app.cpp.o
+.PHONY : src/app/app.cpp.o
+
+src/app/app.i: src/app/app.cpp.i
+.PHONY : src/app/app.i
+
+# target to preprocess a source file
+src/app/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/app/app.cpp.i
+.PHONY : src/app/app.cpp.i
+
+src/app/app.s: src/app/app.cpp.s
+.PHONY : src/app/app.s
+
+# target to generate assembly for a file
+src/app/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/app/app.cpp.s
+.PHONY : src/app/app.cpp.s
+
 src/engine/draw_proc.o: src/engine/draw_proc.cpp.o
 .PHONY : src/engine/draw_proc.o
 
@@ -152,6 +176,78 @@ src/engine/draw_proc.s: src/engine/draw_proc.cpp.s
 src/engine/draw_proc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.s
 .PHONY : src/engine/draw_proc.cpp.s
+
+src/engine/draw_proc_util.o: src/engine/draw_proc_util.cpp.o
+.PHONY : src/engine/draw_proc_util.o
+
+# target to build an object file
+src/engine/draw_proc_util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o
+.PHONY : src/engine/draw_proc_util.cpp.o
+
+src/engine/draw_proc_util.i: src/engine/draw_proc_util.cpp.i
+.PHONY : src/engine/draw_proc_util.i
+
+# target to preprocess a source file
+src/engine/draw_proc_util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.i
+.PHONY : src/engine/draw_proc_util.cpp.i
+
+src/engine/draw_proc_util.s: src/engine/draw_proc_util.cpp.s
+.PHONY : src/engine/draw_proc_util.s
+
+# target to generate assembly for a file
+src/engine/draw_proc_util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.s
+.PHONY : src/engine/draw_proc_util.cpp.s
+
+src/engine/object_manager.o: src/engine/object_manager.cpp.o
+.PHONY : src/engine/object_manager.o
+
+# target to build an object file
+src/engine/object_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o
+.PHONY : src/engine/object_manager.cpp.o
+
+src/engine/object_manager.i: src/engine/object_manager.cpp.i
+.PHONY : src/engine/object_manager.i
+
+# target to preprocess a source file
+src/engine/object_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.i
+.PHONY : src/engine/object_manager.cpp.i
+
+src/engine/object_manager.s: src/engine/object_manager.cpp.s
+.PHONY : src/engine/object_manager.s
+
+# target to generate assembly for a file
+src/engine/object_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.s
+.PHONY : src/engine/object_manager.cpp.s
+
+src/engine/scene.o: src/engine/scene.cpp.o
+.PHONY : src/engine/scene.o
+
+# target to build an object file
+src/engine/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o
+.PHONY : src/engine/scene.cpp.o
+
+src/engine/scene.i: src/engine/scene.cpp.i
+.PHONY : src/engine/scene.i
+
+# target to preprocess a source file
+src/engine/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.i
+.PHONY : src/engine/scene.cpp.i
+
+src/engine/scene.s: src/engine/scene.cpp.s
+.PHONY : src/engine/scene.s
+
+# target to generate assembly for a file
+src/engine/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.s
+.PHONY : src/engine/scene.cpp.s
 
 src/engine/shader_utils.o: src/engine/shader_utils.cpp.o
 .PHONY : src/engine/shader_utils.o
@@ -177,6 +273,30 @@ src/engine/shader_utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/shader_utils.cpp.s
 .PHONY : src/engine/shader_utils.cpp.s
 
+src/engine/vector2d.o: src/engine/vector2d.cpp.o
+.PHONY : src/engine/vector2d.o
+
+# target to build an object file
+src/engine/vector2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.o
+.PHONY : src/engine/vector2d.cpp.o
+
+src/engine/vector2d.i: src/engine/vector2d.cpp.i
+.PHONY : src/engine/vector2d.i
+
+# target to preprocess a source file
+src/engine/vector2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.i
+.PHONY : src/engine/vector2d.cpp.i
+
+src/engine/vector2d.s: src/engine/vector2d.cpp.s
+.PHONY : src/engine/vector2d.s
+
+# target to generate assembly for a file
+src/engine/vector2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.s
+.PHONY : src/engine/vector2d.cpp.s
+
 src/engine/window.o: src/engine/window.cpp.o
 .PHONY : src/engine/window.o
 
@@ -200,6 +320,30 @@ src/engine/window.s: src/engine/window.cpp.s
 src/engine/window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/window.cpp.s
 .PHONY : src/engine/window.cpp.s
+
+src/game/end_scene.o: src/game/end_scene.cpp.o
+.PHONY : src/game/end_scene.o
+
+# target to build an object file
+src/game/end_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o
+.PHONY : src/game/end_scene.cpp.o
+
+src/game/end_scene.i: src/game/end_scene.cpp.i
+.PHONY : src/game/end_scene.i
+
+# target to preprocess a source file
+src/game/end_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.i
+.PHONY : src/game/end_scene.cpp.i
+
+src/game/end_scene.s: src/game/end_scene.cpp.s
+.PHONY : src/game/end_scene.s
+
+# target to generate assembly for a file
+src/game/end_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.s
+.PHONY : src/game/end_scene.cpp.s
 
 src/glad/glad.o: src/glad/glad.c.o
 .PHONY : src/glad/glad.o
@@ -258,15 +402,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleTD"
+	@echo "... src/app/app.o"
+	@echo "... src/app/app.i"
+	@echo "... src/app/app.s"
 	@echo "... src/engine/draw_proc.o"
 	@echo "... src/engine/draw_proc.i"
 	@echo "... src/engine/draw_proc.s"
+	@echo "... src/engine/draw_proc_util.o"
+	@echo "... src/engine/draw_proc_util.i"
+	@echo "... src/engine/draw_proc_util.s"
+	@echo "... src/engine/object_manager.o"
+	@echo "... src/engine/object_manager.i"
+	@echo "... src/engine/object_manager.s"
+	@echo "... src/engine/scene.o"
+	@echo "... src/engine/scene.i"
+	@echo "... src/engine/scene.s"
 	@echo "... src/engine/shader_utils.o"
 	@echo "... src/engine/shader_utils.i"
 	@echo "... src/engine/shader_utils.s"
+	@echo "... src/engine/vector2d.o"
+	@echo "... src/engine/vector2d.i"
+	@echo "... src/engine/vector2d.s"
 	@echo "... src/engine/window.o"
 	@echo "... src/engine/window.i"
 	@echo "... src/engine/window.s"
+	@echo "... src/game/end_scene.o"
+	@echo "... src/game/end_scene.i"
+	@echo "... src/game/end_scene.s"
 	@echo "... src/glad/glad.o"
 	@echo "... src/glad/glad.i"
 	@echo "... src/glad/glad.s"

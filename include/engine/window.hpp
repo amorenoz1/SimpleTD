@@ -3,8 +3,9 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <engine/draw_proc.hpp>
 
-namespace engine {
+namespace Engine {
    class Window {
       private:
          GLFWwindow *window;
@@ -23,6 +24,7 @@ namespace engine {
          void init();
          void pollEvents();
          void clear();
+         void clearColor(Color color);
          void swapBuffers();
          bool windowShouldClose();
    };

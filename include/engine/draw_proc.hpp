@@ -52,12 +52,33 @@ namespace Engine {
          void cleanup() override;
    };
 
-   class Triangle : Drawable {
+   class Triangle : public Drawable {
+      public:
+         float x, y, x1, y1, x2, y2;
+         Color color;
 
+         Triangle(float x, float y, float x1, float y1, float x2, float y2, Color color);
+         ~Triangle();
+
+         void draw() const override;
+         void init() override;
+         void update() override;
+         void cleanup() override;
    };
 
-   class Rectangle : Drawable {
+   class Rectangle : public Drawable {
+      public:
+         float x, y;
+         float width, height;
+         Color color;
 
+         Rectangle(float x, float y, float width, float length, Color color);
+         ~Rectangle();
+
+         void draw() const override;
+         void init() override;
+         void update() override;
+         void cleanup() override;
    };
 
 } // namespace engine

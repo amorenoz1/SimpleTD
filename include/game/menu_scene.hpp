@@ -8,14 +8,14 @@ namespace Game {
 
    class MenuScene : public Engine::Scene{
       private: 
-         Engine::Square *redSquare;
+         Engine::Square *redsquare;
 
       public:
          MenuScene(SceneType *st);
          ~MenuScene();
 
          void init() override;
-         void render() override;
+         void render(float *acc) override;
          void cleanup() override;
    };
 

@@ -9,13 +9,14 @@ namespace Game {
    class EndScene: public Engine::Scene{
       private: 
          Engine::Square *purplesquare;
+         Engine::Triangle *triangle;
 
       public:
          EndScene(SceneType *st);
          ~EndScene();
 
          void init() override;
-         void render() override;
+         void render(float *acc) override;
          void cleanup() override;
    };
 

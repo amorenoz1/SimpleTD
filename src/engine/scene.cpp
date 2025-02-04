@@ -8,5 +8,5 @@ namespace Engine {
    
    void Scene::init() {}
    void Scene::cleanup() {}
-   void Scene::render() {}
+   void Scene::render(float *acc) {}
 }

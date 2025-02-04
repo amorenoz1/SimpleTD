@@ -14,7 +14,7 @@ namespace Game {
          ~GameScene();
 
          void init() override;
-         void render() override;
+         void render(float *acc) override;
          void cleanup() override;
    };
 

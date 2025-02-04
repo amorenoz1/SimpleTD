@@ -21,10 +21,13 @@ add_executable(SimpleTD src/main.cpp
                         src/engine/shader_utils.cpp
                         src/engine/draw_proc.cpp
                         src/engine/vector2d.cpp
+                        src/engine/input_handler.cpp
                         src/engine/scene.cpp
                         src/engine/object_manager.cpp
                         src/engine/draw_proc_util.cpp
                         src/game/end_scene.cpp
+                        src/game/game_scene.cpp
+                        src/game/menu_scene.cpp
                         src/app/app.cpp
 )
 

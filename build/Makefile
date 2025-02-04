@@ -201,6 +201,30 @@ src/engine/draw_proc_util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.s
 .PHONY : src/engine/draw_proc_util.cpp.s
 
+src/engine/input_handler.o: src/engine/input_handler.cpp.o
+.PHONY : src/engine/input_handler.o
+
+# target to build an object file
+src/engine/input_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o
+.PHONY : src/engine/input_handler.cpp.o
+
+src/engine/input_handler.i: src/engine/input_handler.cpp.i
+.PHONY : src/engine/input_handler.i
+
+# target to preprocess a source file
+src/engine/input_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.i
+.PHONY : src/engine/input_handler.cpp.i
+
+src/engine/input_handler.s: src/engine/input_handler.cpp.s
+.PHONY : src/engine/input_handler.s
+
+# target to generate assembly for a file
+src/engine/input_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.s
+.PHONY : src/engine/input_handler.cpp.s
+
 src/engine/object_manager.o: src/engine/object_manager.cpp.o
 .PHONY : src/engine/object_manager.o
 
@@ -345,6 +369,54 @@ src/game/end_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.s
 .PHONY : src/game/end_scene.cpp.s
 
+src/game/game_scene.o: src/game/game_scene.cpp.o
+.PHONY : src/game/game_scene.o
+
+# target to build an object file
+src/game/game_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o
+.PHONY : src/game/game_scene.cpp.o
+
+src/game/game_scene.i: src/game/game_scene.cpp.i
+.PHONY : src/game/game_scene.i
+
+# target to preprocess a source file
+src/game/game_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.i
+.PHONY : src/game/game_scene.cpp.i
+
+src/game/game_scene.s: src/game/game_scene.cpp.s
+.PHONY : src/game/game_scene.s
+
+# target to generate assembly for a file
+src/game/game_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.s
+.PHONY : src/game/game_scene.cpp.s
+
+src/game/menu_scene.o: src/game/menu_scene.cpp.o
+.PHONY : src/game/menu_scene.o
+
+# target to build an object file
+src/game/menu_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o
+.PHONY : src/game/menu_scene.cpp.o
+
+src/game/menu_scene.i: src/game/menu_scene.cpp.i
+.PHONY : src/game/menu_scene.i
+
+# target to preprocess a source file
+src/game/menu_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.i
+.PHONY : src/game/menu_scene.cpp.i
+
+src/game/menu_scene.s: src/game/menu_scene.cpp.s
+.PHONY : src/game/menu_scene.s
+
+# target to generate assembly for a file
+src/game/menu_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleTD.dir/build.make CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.s
+.PHONY : src/game/menu_scene.cpp.s
+
 src/glad/glad.o: src/glad/glad.c.o
 .PHONY : src/glad/glad.o
 
@@ -411,6 +483,9 @@ help:
 	@echo "... src/engine/draw_proc_util.o"
 	@echo "... src/engine/draw_proc_util.i"
 	@echo "... src/engine/draw_proc_util.s"
+	@echo "... src/engine/input_handler.o"
+	@echo "... src/engine/input_handler.i"
+	@echo "... src/engine/input_handler.s"
 	@echo "... src/engine/object_manager.o"
 	@echo "... src/engine/object_manager.i"
 	@echo "... src/engine/object_manager.s"
@@ -429,6 +504,12 @@ help:
 	@echo "... src/game/end_scene.o"
 	@echo "... src/game/end_scene.i"
 	@echo "... src/game/end_scene.s"
+	@echo "... src/game/game_scene.o"
+	@echo "... src/game/game_scene.i"
+	@echo "... src/game/game_scene.s"
+	@echo "... src/game/menu_scene.o"
+	@echo "... src/game/menu_scene.i"
+	@echo "... src/game/menu_scene.s"
 	@echo "... src/glad/glad.o"
 	@echo "... src/glad/glad.i"
 	@echo "... src/glad/glad.s"

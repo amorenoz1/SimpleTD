@@ -13,10 +13,12 @@ namespace Engine {
          bool isInitialized;
 
       public:
+         bool isSwitching;
+
          virtual ~Scene();
 
          virtual void init();
-         virtual void render();
+         virtual void render(float *acc);
          virtual void cleanup();
    };
 }

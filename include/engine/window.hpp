@@ -14,9 +14,11 @@ namespace Engine {
          const int height;
          const char *title;
 
+         double mX, mY;
+
       public:
          Window(const int w, const int h, const char *t)
-            : width(w), height(h), title(t) {
+            : width(w), height(h), title(t), mX(0), mY(0) {
                init();
             }
          ~Window();
@@ -27,6 +29,9 @@ namespace Engine {
          void clearColor(Color color);
          void swapBuffers();
          bool windowShouldClose();
+
+         GLFWwindow* getWindow();
+
    };
 } // namespace engine
 #endif

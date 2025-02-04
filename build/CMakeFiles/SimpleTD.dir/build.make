@@ -153,10 +153,24 @@ CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/vector2d.cpp -o CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.s
 
+CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
+CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/input_handler.cpp
+CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o -MF CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/input_handler.cpp
+
+CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/input_handler.cpp > CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.i
+
+CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/input_handler.cpp -o CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.s
+
 CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
 CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/scene.cpp
 CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o -MF CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/scene.cpp
 
 CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.s: cmake_force
 CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
 CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/object_manager.cpp
 CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o -MF CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/object_manager.cpp
 
 CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.s: cmake_force
 CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
 CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc_util.cpp
 CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o -MF CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/engine/draw_proc_util.cpp
 
 CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.s: cmake_force
 CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
 CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/end_scene.cpp
 CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o -MF CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/end_scene.cpp
 
 CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.i: cmake_force
@@ -209,10 +223,38 @@ CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/end_scene.cpp -o CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.s
 
+CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
+CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/game_scene.cpp
+CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o -MF CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/game_scene.cpp
+
+CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/game_scene.cpp > CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.i
+
+CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/game_scene.cpp -o CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.s
+
+CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
+CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/menu_scene.cpp
+CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o -MF CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/menu_scene.cpp
+
+CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/menu_scene.cpp > CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.i
+
+CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/game/menu_scene.cpp -o CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.s
+
 CMakeFiles/SimpleTD.dir/src/app/app.cpp.o: CMakeFiles/SimpleTD.dir/flags.make
 CMakeFiles/SimpleTD.dir/src/app/app.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/app/app.cpp
 CMakeFiles/SimpleTD.dir/src/app/app.cpp.o: CMakeFiles/SimpleTD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimpleTD.dir/src/app/app.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SimpleTD.dir/src/app/app.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleTD.dir/src/app/app.cpp.o -MF CMakeFiles/SimpleTD.dir/src/app/app.cpp.o.d -o CMakeFiles/SimpleTD.dir/src/app/app.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/src/app/app.cpp
 
 CMakeFiles/SimpleTD.dir/src/app/app.cpp.i: cmake_force
@@ -231,10 +273,13 @@ SimpleTD_OBJECTS = \
 "CMakeFiles/SimpleTD.dir/src/engine/shader_utils.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.o" \
+"CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o" \
+"CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o" \
+"CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o" \
 "CMakeFiles/SimpleTD.dir/src/app/app.cpp.o"
 
 # External object files for target SimpleTD
@@ -246,16 +291,19 @@ SimpleTD_EXTERNAL_OBJECTS =
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/shader_utils.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/draw_proc.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/vector2d.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/input_handler.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/scene.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/object_manager.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/engine/draw_proc_util.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/game/end_scene.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/game/game_scene.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/game/menu_scene.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/src/app/app.cpp.o
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/build.make
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: /usr/local/lib/libglfw.3.4.dylib
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: /usr/local/lib/libglm.dylib
 /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD: CMakeFiles/SimpleTD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/SimpleTD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /Users/mrphoonmoji/Projects/gitrepos/SimpleTD/bin/SimpleTD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleTD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
